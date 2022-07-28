@@ -22,17 +22,6 @@ body{
     justify-content: start;
 
 }
-.log{
- width: 32px;
-height: 35px;
-top: 50%;}
-
-.logo_img{ 
- overflow: hidden;
- border-radius: 6px;
- box-shadow: 0px 15px 25px rgb(0, 0, 0.5) ; 
-  
-}
 
 .nav{
     
@@ -50,11 +39,15 @@ margin: 5px;
 height: auto;
 display: flex;
 justify-content: center;
-
-
+justify-content: space-between 5px;
 
 
 }
+.logo_img{
+width: 100px;
+height: 100px;
+}
+
 .section{
     grid-area:"section";
     background-color: bisque;
