@@ -219,8 +219,8 @@ h3,p{
     }
          .section{
      display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(1,auto);
     justify-content: space-around;
     gap: 10px;}
     
@@ -228,11 +228,18 @@ h3,p{
  .title{
     font-size: 1em;
  }
+ img {
+    width: 150px;
+    height: 150px;
+}
+.icon_social_web{
+    height: 90px ;
+    
+}
 
 
-  
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:400px) {
     
     .grid_container{
         display: grid;
@@ -241,7 +248,28 @@ h3,p{
     }
          .section{
      display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    justify-content: space-around;
+    gap: 10px;}
+
+    
+    
+
+}
+
+
+
+@media screen and (min-width:650px) {
+    
+    .grid_container{
+        display: grid;
+        gap: 10px;
+        grid-template-areas:"header""nav" "section""section" "footer" ;
+    }
+         .section{
+     display: grid;
+    grid-template-columns: repeat(4,auto);
     grid-template-rows: repeat(3,auto);
     justify-content: space-around;
     gap: 10px;}
